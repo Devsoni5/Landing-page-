@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: purple;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  font-size: 26px;
+  /* background-color: purple; */
+  /* color: white; */
+  width: 250px;
+  height: 30px;
+  margin-left: 40%;
+  margin-bottom: 50px;
+}
+#event-info {
+  text-align: center;
+}
+.img {
+  margin: 20px;
+  height: auto;
+  width: 200;
+}
+.contact-us {
+  margin: 10px;
+  border: 2px solid black;
+  background-color: lightgrey;
+  color: black;
+  width: fit-content;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.contact-us:hover {
+  background-color: cadetblue;
+}
+.about-us {
+  margin: 10px;
+  border: 2px solid black;
+  background-color: lightgrey;
+  color: black;
+  width: fit-content;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.about-us:hover {
+  background-color: cadetblue;
+}
+.book-now {
+  margin: 10px;
+  border: 2px solid black;
+  background-color: lightgrey;
+  color: black;
+  width: fit-content;
+  padding: 5px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.description,
+.feature {
+  text-align: center;
+  margin-left: 50px;
+}
+.description-box {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  /* display: flex; */
+  height: auto;
+  width: 200px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 50px;
+  background-color: lightcoral;
+}
+h3 {
+  text-align: center;
+}
+.box {
+  /* border: 2px solid #000; */
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+}
+.feature-box {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 200px;
+  width: 550px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 50px;
+  background-color: lightpink;
+  list-style: none;
+}
+.description-box:hover,
+.feature-box:hover {
+  background-color: #ff6347;
+}
+.img1 {
+  margin-left: 20px;
+  height: 200px;
+}
+.img2 {
+  margin-left: 100px;
+  height: 200px;
+}
+.img3 {
+  margin-left: 100px;
+  height: 200px;
+}
+/* .car-details img {
+  height: 100px;
+  margin: 0 10px;
+  
+} */
+#register-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+#register-btn:hover {
+  background-color: #0056b3;
+}
+#book-now-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+#book-now-btn:hover {
+  background-color: #0056b3; /* Darker shade of blue */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  /* Add a box shadow for depth */
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
